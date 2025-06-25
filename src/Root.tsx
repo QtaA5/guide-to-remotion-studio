@@ -57,10 +57,10 @@ export const RemotionRoot: React.FC = () => {
 			<Composition
 				id="HarveyPicture"
 				component={HarveyPicture}
-				durationInFrames={1000}
+				durationInFrames={210}
 				fps={30}
-				width={1920}
-				height={1080}
+				width={1080}
+				height={2400}
 				schema={harveyPictureSchema}
 				defaultProps={{
 					titleText: 'Harvey!',
