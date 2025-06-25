@@ -17,7 +17,7 @@ export const harveyPictureSchema = z.object({
 
 const title: React.CSSProperties = {
 	fontWeight: 'bold',
-	fontSize: 200,
+	fontSize: 30,
 	textAlign: 'center',
 	position: 'absolute',
 	// bottom: 160,
@@ -51,7 +51,7 @@ export const HarveyPicture: React.FC<{
 	const logoRotation = interpolate(
 		frame,
 		[0, videoConfig.durationInFrames],
-		[-25, 25]
+		[-5, 5]
 	);
 
 	return (
